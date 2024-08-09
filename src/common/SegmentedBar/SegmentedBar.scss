@@ -1,0 +1,27 @@
+.segmented-bar-wrapper {
+  .segmented-bar {
+    width: 600px;
+    height: 65px;
+    margin: auto;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #616df6 0%, #525cd0 100%);
+    .segmented-menu {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 1%;
+      button {
+        height: 50px;
+        width: 27%;
+        background-color: transparent;
+        border-color: transparent;
+        span {
+          font-size: 16px;
+          color: #dedede;
+        }
+      }
+    }
+    .clicked-btn {
+      background-color: #4c4fac !important;
+    }
+  }
+}

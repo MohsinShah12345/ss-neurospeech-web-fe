@@ -1,0 +1,36 @@
+.voice-wrapper {
+  padding: 20px;
+  margin-bottom: 5%;
+  .btn-color {
+    background-color: #4c4fac !important;
+    display: flex;
+    align-items: center;
+  }
+  .new-voice {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 0 1% 0;
+  }
+  .voice-table {
+    .ant-table-wrapper .ant-table {
+      border-radius: 10px;
+      box-shadow: 1px 0px 2px 1px rgba(208, 216, 243, 0.6);
+      border-radius: 8px 8px 8px 8px;
+      background-color: white;
+      .ant-table-thead {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .ant-table-cell {
+        background: white;
+      }
+      .ant-table-tbody {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .ant-spin-nested-loading {
+        top: 2%;
+      }
+    }
+  }
+}

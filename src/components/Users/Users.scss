@@ -1,0 +1,27 @@
+.ant-layout-content.site-layout-background {
+  background: linear-gradient(
+    113.5deg,
+    #e6e9fa 10.17%,
+    #f6f8fc 89.06%
+  ) !important;
+  .admin-users-wrapper {
+    .table {
+      width: 98%;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 1px 0px 2px 1px rgba(208, 216, 243, 0.6);
+      background-color: white;
+      .ant-table-thead {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .ant-table-cell {
+        background: white;
+      }
+      .ant-table-tbody {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}

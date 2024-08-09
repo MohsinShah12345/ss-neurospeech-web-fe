@@ -1,0 +1,120 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #555555;
+  background-image: linear-gradient(43deg, #555555 0%, #aaa 46%, #ececec 100%);
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #aaa;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #335ddc;
+    border-radius: 8px;
+  }
+  .primary-color {
+    background-color: #000000;
+  }
+  .primary-color:hover {
+    background-color: #3d3c3c;
+  }
+  .secondary-color {
+    background-color: #ececec;
+  }
+  h3 {
+    padding: 0% !important;
+    margin: 0% !important;
+  }
+  .login-box {
+    width: 65%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 12px;
+    .carousel-handle {
+      width: 50%;
+      height: 100%;
+    }
+  }
+  #login-form {
+    flex: 1 0 100%;
+    max-width: 480px;
+    width: 100%;
+    margin: 65px;
+    padding: 60px;
+  }
+  #login-form p {
+    margin-bottom: 30px;
+  }
+  #login-form p.form-title {
+    color: #333333;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  #login-form .ant-form-item-label > label.ant-form-item-required::before {
+    display: none;
+  }
+  .ant-form-item-control-input-content {
+    text-align: left;
+  }
+  //Custom CheckBox
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner:focus {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner:hover {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+  }
+  .ant-checkbox .ant-checkbox-inner {
+    border-color: #000000 !important;
+  }
+  #login-form .ant-input-affix-wrapper {
+    padding: 12px 15px;
+  }
+  #login-form_username {
+    height: 48px;
+  }
+  #login-form .ant-btn {
+    height: 42px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+  }
+  .carousel-handler {
+    height: 100%;
+    width: 50%;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+  @media screen and (max-width: 1023px) {
+    .login-box {
+      flex-direction: column;
+      box-shadow: none;
+    }
+    #login-form {
+      max-width: 100%;
+    }
+  }
+}

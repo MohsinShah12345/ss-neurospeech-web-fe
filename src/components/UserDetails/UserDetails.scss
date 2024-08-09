@@ -1,0 +1,22 @@
+.user-details-wrapper {
+  .user-details {
+    margin-top: 1%;
+  }
+  .user-information {
+    height: 75vh;
+    .ant-list-item {
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  .user-payment-history {
+    height: 35vh;
+  }
+  .user-projects {
+    height: 35vh;
+    margin-top: 2%;
+    .ant-table-container {
+      height: 270px;
+    }
+  }
+}

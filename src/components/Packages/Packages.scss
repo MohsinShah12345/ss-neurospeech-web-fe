@@ -1,0 +1,116 @@
+.ant-layout-content.site-layout-background::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.packages-wrapper {
+  padding-left: 20px;
+  padding-right: 25px;
+  .bg-color-black {
+    background-color: #4c4fac !important;
+  }
+  .ant-btn {
+    display: flex;
+    align-items: center;
+  }
+  .new-package {
+    display: flex;
+    justify-content: flex-end;
+    width: 190px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 120px 38px 0px 10px;
+  }
+  .package-table {
+    .ant-table-container {
+      height: 700px;
+    }
+    .ant-table-wrapper .ant-table {
+      border-radius: 10px;
+      box-shadow: 1px 0px 2px 1px rgba(208, 216, 243, 0.6);
+      background-color: white;
+      .ant-table-thead {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .ant-table-cell {
+        background: white;
+      }
+      .ant-table-tbody {
+        font-size: 16px;
+        font-weight: 500;
+        .name-link {
+          color: black;
+        }
+      }
+    }
+    .subscribe-tab {
+      font-size: 16px;
+      font-weight: 600;
+      color: #96969f;
+      display: flex;
+      .sub-txt {
+        padding: 10px;
+      }
+    }
+    .ant-tabs-tab {
+      display: flex;
+      align-items: center;
+    }
+    .pkg-tab {
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      .pkg-txt {
+        padding: 10px;
+      }
+    }
+    .pkg-icon {
+      filter: invert(100%) sepia(0%) saturate(1000%) hue-rotate(360deg)
+        brightness(0%) contrast(0%);
+    }
+    .ant-tabs-nav {
+      width: 410px;
+      height: 60px;
+    }
+    .ant-tabs-tab {
+      width: 195px;
+      border: none;
+      color: #96969f;
+      transition: all;
+      background-color: white;
+    }
+    .ant-tabs-card.ant-tabs-top .ant-tabs-nav .ant-tabs-tab {
+      border-radius: 10px;
+    }
+    .ant-tabs-tab-active {
+      background: #4c4fac;
+      border: none;
+      height: 45px;
+      top: 8px;
+      .subscribe-tab {
+        color: white;
+        .subscribe-icon {
+          filter: brightness(0) invert(1);
+        }
+      }
+      .pkg-tab {
+        color: white;
+        .pkg-icon {
+          filter: brightness(0) invert(1);
+        }
+      }
+    }
+    .ant-tabs-nav-wrap {
+      background: white;
+      border-radius: 10px;
+      justify-content: center;
+    }
+    a.name-link {
+      color: black;
+    }
+  }
+  .ant-spin-nested-loading {
+    bottom: 5px;
+  }
+}

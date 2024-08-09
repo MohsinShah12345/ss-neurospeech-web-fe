@@ -1,0 +1,12 @@
+.package-modal-wrapper {
+  .submit-btn {
+    .ant-form-item-control-input-content {
+      max-width: 50%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .ant-modal-footer {
+    display: none;
+  }
+}

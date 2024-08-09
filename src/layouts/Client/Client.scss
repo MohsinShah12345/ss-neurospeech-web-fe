@@ -1,0 +1,165 @@
+.client-layout-wrapper {
+  .side-navbar {
+    max-width: 240px !important;
+    min-width: 240px !important;
+    border-radius: 0 8px 8px 0;
+    background: linear-gradient(180deg, #616df6 0%, #525cd0 100%);
+  }
+  .upper-menu {
+    margin-top: 5%;
+    padding: 8%;
+    .project-btn {
+      width: 100%;
+      margin-top: 6%;
+      background: #d6d9fb;
+      border-radius: 6.5px 6.5px 4px 4px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+      span {
+        color: #4c4fac;
+      }
+    }
+    .click-popup {
+      border: none;
+      border-radius: 0px 0px 6.5px 6.5px;
+      width: 201.5px;
+      ::placeholder {
+        font-size: 12px;
+        font-weight: 500px;
+        color: #c1c1c1;
+      }
+      height: 94px;
+      .popup-input {
+        right: 8px;
+        background-color: white;
+        border: none;
+        bottom: 8px;
+        height: 35px;
+        width: 176px;
+        box-shadow: 0 0 0 0px rgb(0 0 0 / 0%);
+      }
+      .popup-btns {
+        width: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .confirm-btn {
+          border: none;
+          background-color: #535dd2;
+          color: white;
+        }
+        .cancel-btn {
+          border: none;
+          background-color: #b0b0b0;
+          color: white;
+        }
+      }
+    }
+    .ant-card .ant-card-body {
+      padding: 14px;
+    }
+
+    .ant-input-affix-wrapper {
+      background-color: #d6d9fb;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    }
+    .ant-input {
+      background-color: #d6d9fb;
+    }
+    input::placeholder {
+      color: #a4abff;
+    }
+  }
+  .menu-divider {
+    color: #d6d9fb;
+    border: 0.5px solid #ababff;
+  }
+  .projects-section {
+    min-height: 50%;
+    .projects-title {
+      float: left;
+      color: #ffffff;
+      padding-left: 7%;
+    }
+    .project-label {
+      display: flex;
+      .custom-circle {
+        height: 7px;
+        width: 7px;
+        margin: auto 10%; //top and bottom margins are "auto", right and left margins are "0"
+        border-radius: 50%;
+        background: #eb5757;
+      }
+    }
+  }
+  .upgrade-card-container {
+    padding: 8%;
+    .upgrade-badge {
+      position: absolute;
+      top: 43.5rem;
+      left: 5rem;
+      z-index: 1;
+    }
+    .upgrade-card {
+      background-color: #d6d9fb;
+      border-radius: 6.5px;
+      .upgrade-card-body {
+        padding-top: 20px;
+        font-weight: 500;
+      }
+      .pro-span {
+        color: #5762dd;
+        font-weight: 500;
+      }
+      span {
+        line-height: 14px;
+      }
+      button {
+        width: 100%;
+        margin-top: 15%;
+        background-color: #4c4fac;
+        color: #ffffff;
+        border-radius: 3.3px;
+      }
+    }
+  }
+  .ant-menu-item {
+    color: #ffffff !important;
+  }
+  .ant-menu-item-selected {
+    background-color: #d6d9fb !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+
+    .project-label {
+      color: #34353c !important;
+      .custom-circle {
+        background: #f2994a !important;
+      }
+    }
+  }
+  .ant-menu-item {
+    height: 35px;
+    width: calc(100% - 20px);
+    margin-inline: 21px;
+    padding-left: 0 !important;
+    padding-inline: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .neuro-speech-logo {
+    display: flex;
+    justify-content: center;
+    .text-logo {
+      margin-left: 3%;
+      color: #fff;
+    }
+    .logo-img {
+      margin-top: 12%;
+      margin-bottom: auto;
+    }
+  }
+  .anticon {
+    font-size: 20px !important;
+  }
+}

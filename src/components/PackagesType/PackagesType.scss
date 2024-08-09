@@ -1,0 +1,33 @@
+.custom-package-wrapper {
+  .ant-input-number {
+    width: 100%;
+  }
+  .ant-btn {
+    background: #4c4fac !important;
+    top: 20px;
+  }
+}
+.main-package-wrapper {
+  .divider-section {
+    display: flex;
+    margin-bottom: 1%;
+    .ant-divider-with-text {
+      display: contents;
+    }
+  }
+  .ant-input-number {
+    width: 100%;
+  }
+}
+.main-package-wrapper {
+  .ant-switch {
+    background: #96969f;
+  }
+  .ant-switch-checked {
+    background: #4c4fac !important;
+  }
+  .ant-btn {
+    background: #4c4fac !important;
+    top: 20px;
+  }
+}
